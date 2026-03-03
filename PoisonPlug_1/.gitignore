@@ -1,0 +1,10 @@
+# Sensitive malware-derived artifacts (keep out of public repo)
+idbs/**
+*.i64
+*.idb
+
+# Common generated binary outputs
+output/**
+*.dll.pe
+*.bin
+*.zip

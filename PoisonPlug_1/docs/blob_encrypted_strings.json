@@ -1,0 +1,31 @@
+{
+  "redaction_note": "Public redacted summary: decrypted string contents removed. Full dataset is private and available on vetted request.",
+  "total_blobs": 8,
+  "total_strings": 183,
+  "blobs": {
+    "blob_0": {
+      "string_count": 30
+    },
+    "blob_1": {
+      "string_count": 20
+    },
+    "blob_2": {
+      "string_count": 37
+    },
+    "blob_3": {
+      "string_count": 60
+    },
+    "blob_4": {
+      "string_count": 8
+    },
+    "blob_5": {
+      "string_count": 15
+    },
+    "blob_6": {
+      "string_count": 7
+    },
+    "blob_7": {
+      "string_count": 6
+    }
+  }
+}

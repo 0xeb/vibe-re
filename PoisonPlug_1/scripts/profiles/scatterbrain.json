@@ -1,0 +1,54 @@
+{
+    "name": "ScatterBrain / PoisonPlug",
+    "description": "Opaque predicate anti-disassembly + ROR8/XOR API hashing used by ScatterBrain obfuscator (PoisonPlug family)",
+
+    "hash_algorithm": {
+        "type": "ror8_xor",
+        "xor_constant": "0x7C35D9A3",
+        "rotate_bits": 8,
+        "module_hash": {
+            "encoding": "wide_ci",
+            "description": "Wide char, case-insensitive (| 0x20), low byte only"
+        },
+        "export_hash": {
+            "encoding": "ascii",
+            "description": "ASCII, case-sensitive"
+        }
+    },
+
+    "known_hashes": {
+        "module": {
+            "0xFD5B1261": "kernel32.dll"
+        },
+        "export": {
+            "0xBDA26FE6": "LoadLibraryA",
+            "0xA16DC157": "GetProcAddress",
+            "0x24A6650A": "VirtualAlloc",
+            "0x27BE7673": "Sleep"
+        }
+    },
+
+    "opaque_predicates": {
+        "pattern_size": 5,
+        "description": "Jcc_true +3 / complement_Jcc +1 / junk_byte (E8|E9)",
+        "jcc_range": ["0x70", "0x7F"],
+        "complement_check": "byte0 XOR byte2 == 1",
+        "displacements": [3, 1],
+        "junk_bytes": ["0xE8", "0xE9"]
+    },
+
+    "dll_search_paths": [
+        "C:\\Windows\\System32\\kernel32.dll",
+        "C:\\Windows\\System32\\ntdll.dll",
+        "C:\\Windows\\System32\\kernelbase.dll",
+        "C:\\Windows\\System32\\user32.dll",
+        "C:\\Windows\\System32\\advapi32.dll",
+        "C:\\Windows\\System32\\ws2_32.dll",
+        "C:\\Windows\\System32\\wininet.dll",
+        "C:\\Windows\\System32\\msvcrt.dll",
+        "C:\\Windows\\System32\\ole32.dll",
+        "C:\\Windows\\System32\\shell32.dll",
+        "C:\\Windows\\System32\\crypt32.dll",
+        "C:\\Windows\\System32\\winhttp.dll"
+    ]
+}

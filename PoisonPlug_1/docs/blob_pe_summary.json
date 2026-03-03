@@ -1,0 +1,629 @@
+[
+  {
+    "name": "blob_0",
+    "output": "output/blobs/blob_0.dll",
+    "size_of_image": 24576,
+    "entry_point_rva": 10004,
+    "num_sections": 4,
+    "timestamp": 1487846033,
+    "pe_size": 22016,
+    "imports": [
+      {
+        "dll": "KERNEL32.dll",
+        "functions": [
+          "GetProcAddress",
+          "GetModuleHandleA",
+          "lstrcmpiA",
+          "GetTickCount",
+          "OpenMutexW",
+          "lstrcmpiW",
+          "OpenProcess",
+          "CreateThread",
+          "lstrlenW",
+          "ExpandEnvironmentStringsW",
+          "CreateProcessW",
+          "CreateToolhelp32Snapshot",
+          "Process32FirstW",
+          "Process32NextW",
+          "lstrcpyW",
+          "CloseHandle",
+          "CreateMutexA",
+          "GetLastError",
+          "TerminateProcess",
+          "Sleep",
+          "GetCurrentProcess",
+          "ExitProcess"
+        ]
+      },
+      {
+        "dll": "USER32.dll",
+        "functions": [
+          "EnableWindow",
+          "GetClassNameA",
+          "GetForegroundWindow",
+          "EnumChildWindows"
+        ]
+      },
+      {
+        "dll": "ADVAPI32.dll",
+        "functions": [
+          "LookupPrivilegeValueA",
+          "AdjustTokenPrivileges",
+          "DuplicateTokenEx",
+          "OpenProcessToken"
+        ]
+      },
+      {
+        "dll": "WS2_32.dll",
+        "functions": [
+          "ord#14",
+          "ord#8"
+        ]
+      },
+      {
+        "dll": "USERENV.dll",
+        "functions": [
+          "DestroyEnvironmentBlock",
+          "CreateEnvironmentBlock"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "raw_size": 8165,
+        "vsize": 8192
+      },
+      {
+        "name": ".rdata",
+        "rva": 12288,
+        "raw_size": 2658,
+        "vsize": 4096
+      },
+      {
+        "name": ".data2",
+        "rva": 16384,
+        "raw_size": 0,
+        "vsize": 4096
+      },
+      {
+        "name": ".data3",
+        "rva": 20480,
+        "raw_size": 468,
+        "vsize": 4096
+      }
+    ]
+  },
+  {
+    "name": "blob_1",
+    "output": "output/blobs/blob_1.dll",
+    "size_of_image": 28672,
+    "entry_point_rva": 4260,
+    "num_sections": 4,
+    "timestamp": 1487846004,
+    "pe_size": 25088,
+    "imports": [
+      {
+        "dll": "KERNEL32.dll",
+        "functions": [
+          "CreateEventW",
+          "GetModuleHandleA",
+          "SetUnhandledExceptionFilter",
+          "GetCurrentThread",
+          "TerminateThread",
+          "WaitForSingleObject"
+        ]
+      },
+      {
+        "dll": "USER32.dll",
+        "functions": [
+          "wsprintfA"
+        ]
+      },
+      {
+        "dll": "ADVAPI32.dll",
+        "functions": [
+          "RegEnumValueW",
+          "RegOpenKeyExW",
+          "RegDeleteValueW",
+          "RegCloseKey",
+          "RegQueryValueExW"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "raw_size": 10259,
+        "vsize": 12288
+      },
+      {
+        "name": ".rdata",
+        "rva": 16384,
+        "raw_size": 1374,
+        "vsize": 4096
+      },
+      {
+        "name": ".data2",
+        "rva": 20480,
+        "raw_size": 0,
+        "vsize": 4096
+      },
+      {
+        "name": ".data3",
+        "rva": 24576,
+        "raw_size": 408,
+        "vsize": 4096
+      }
+    ]
+  },
+  {
+    "name": "blob_2",
+    "output": "output/blobs/blob_2.dll",
+    "size_of_image": 28672,
+    "entry_point_rva": 4260,
+    "num_sections": 4,
+    "timestamp": 1487846008,
+    "pe_size": 22016,
+    "imports": [],
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "raw_size": 9627,
+        "vsize": 12288
+      },
+      {
+        "name": ".rdata",
+        "rva": 16384,
+        "raw_size": 1144,
+        "vsize": 4096
+      },
+      {
+        "name": ".data2",
+        "rva": 20480,
+        "raw_size": 0,
+        "vsize": 4096
+      },
+      {
+        "name": ".data3",
+        "rva": 24576,
+        "raw_size": 324,
+        "vsize": 4096
+      }
+    ]
+  },
+  {
+    "name": "blob_3",
+    "output": "output/blobs/blob_3.dll",
+    "size_of_image": 40960,
+    "entry_point_rva": 5088,
+    "num_sections": 4,
+    "timestamp": 1487861974,
+    "pe_size": 45568,
+    "imports": [
+      {
+        "dll": "KERNEL32.dll",
+        "functions": [
+          "OutputDebugStringA",
+          "SetErrorMode",
+          "GetSystemTime",
+          "GlobalMemoryStatusEx",
+          "GetNativeSystemInfo",
+          "GetDiskFreeSpaceExA",
+          "GetSystemDefaultLCID",
+          "GetCurrentProcessId",
+          "GetVersionExW",
+          "GetComputerNameW",
+          "lstrlenA",
+          "GetLastError",
+          "WaitForMultipleObjects"
+        ]
+      },
+      {
+        "dll": "USER32.dll",
+        "functions": [
+          "wsprintfA",
+          "EnumDisplaySettingsW",
+          "GetSystemMetrics"
+        ]
+      },
+      {
+        "dll": "ole32.dll",
+        "functions": [
+          "CoUninitialize",
+          "CoInitialize"
+        ]
+      },
+      {
+        "dll": "WININET.dll",
+        "functions": [
+          "InternetSetOptionA",
+          "InternetOpenA",
+          "InternetConnectA",
+          "HttpOpenRequestA",
+          "InternetSetOptionW",
+          "FtpOpenFileA",
+          "HttpAddRequestHeadersW",
+          "HttpSendRequestExA",
+          "HttpEndRequestA",
+          "InternetReadFile",
+          "InternetCloseHandle"
+        ]
+      },
+      {
+        "dll": "VERSION.dll",
+        "functions": [
+          "VerQueryValueW",
+          "GetFileVersionInfoW"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "raw_size": 19422,
+        "vsize": 20480
+      },
+      {
+        "name": ".rdata",
+        "rva": 24576,
+        "raw_size": 3168,
+        "vsize": 4096
+      },
+      {
+        "name": ".data2",
+        "rva": 28672,
+        "raw_size": 0,
+        "vsize": 8192
+      },
+      {
+        "name": ".data3",
+        "rva": 36864,
+        "raw_size": 600,
+        "vsize": 4096
+      }
+    ]
+  },
+  {
+    "name": "blob_4",
+    "output": "output/blobs/blob_4.dll",
+    "size_of_image": 24576,
+    "entry_point_rva": 4668,
+    "num_sections": 4,
+    "timestamp": 1487845977,
+    "pe_size": 14848,
+    "imports": [
+      {
+        "dll": "KERNEL32.dll",
+        "functions": [
+          "lstrcpyW",
+          "GetComputerNameA",
+          "lstrlenA",
+          "LoadLibraryA",
+          "GetProcAddress"
+        ]
+      },
+      {
+        "dll": "USER32.dll",
+        "functions": [
+          "wsprintfA"
+        ]
+      },
+      {
+        "dll": "WS2_32.dll",
+        "functions": [
+          "ord#116",
+          "ord#115",
+          "ord#23",
+          "ord#111",
+          "WSAIoctl",
+          "ord#9",
+          "ord#10",
+          "ord#4",
+          "ord#18",
+          "ord#16",
+          "ord#22",
+          "ord#3",
+          "ord#21",
+          "ord#19",
+          "ord#52"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "raw_size": 5305,
+        "vsize": 8192
+      },
+      {
+        "name": ".rdata",
+        "rva": 12288,
+        "raw_size": 1156,
+        "vsize": 4096
+      },
+      {
+        "name": ".data2",
+        "rva": 16384,
+        "raw_size": 0,
+        "vsize": 4096
+      },
+      {
+        "name": ".data3",
+        "rva": 20480,
+        "raw_size": 264,
+        "vsize": 4096
+      }
+    ]
+  },
+  {
+    "name": "blob_5",
+    "output": "output/blobs/blob_5.dll",
+    "size_of_image": 28672,
+    "entry_point_rva": 5500,
+    "num_sections": 4,
+    "timestamp": 1487845982,
+    "pe_size": 26624,
+    "imports": [
+      {
+        "dll": "KERNEL32.dll",
+        "functions": [
+          "lstrcpyW",
+          "InitializeCriticalSection",
+          "DeleteCriticalSection",
+          "EnterCriticalSection",
+          "LeaveCriticalSection",
+          "QueryPerformanceCounter",
+          "CreateThread",
+          "GetLastError",
+          "WaitForSingleObject",
+          "CloseHandle",
+          "Sleep",
+          "CreateEventW",
+          "GetSystemTime",
+          "GetTickCount",
+          "GetCurrentThreadId",
+          "GetCurrentProcessId",
+          "ResetEvent",
+          "SetEvent",
+          "lstrcpyA",
+          "lstrlenA"
+        ]
+      },
+      {
+        "dll": "USER32.dll",
+        "functions": [
+          "wsprintfA"
+        ]
+      },
+      {
+        "dll": "WS2_32.dll",
+        "functions": [
+          "ord#15",
+          "ord#9",
+          "ord#115",
+          "ord#116"
+        ]
+      },
+      {
+        "dll": "WININET.dll",
+        "functions": [
+          "InternetSetOptionA",
+          "InternetCloseHandle",
+          "InternetReadFile",
+          "HttpQueryInfoA",
+          "HttpEndRequestA",
+          "InternetOpenA",
+          "InternetConnectA",
+          "HttpOpenRequestA",
+          "InternetQueryOptionW",
+          "InternetSetOptionW",
+          "HttpSendRequestExA",
+          "HttpAddRequestHeadersA"
+        ]
+      },
+      {
+        "dll": "urlmon.dll",
+        "functions": [
+          "ObtainUserAgentString"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "raw_size": 10671,
+        "vsize": 12288
+      },
+      {
+        "name": ".rdata",
+        "rva": 16384,
+        "raw_size": 2080,
+        "vsize": 4096
+      },
+      {
+        "name": ".data2",
+        "rva": 20480,
+        "raw_size": 0,
+        "vsize": 4096
+      },
+      {
+        "name": ".data3",
+        "rva": 24576,
+        "raw_size": 504,
+        "vsize": 4096
+      }
+    ]
+  },
+  {
+    "name": "blob_6",
+    "output": "output/blobs/blob_6.dll",
+    "size_of_image": 32768,
+    "entry_point_rva": 6184,
+    "num_sections": 4,
+    "timestamp": 1487845987,
+    "pe_size": 33792,
+    "imports": [
+      {
+        "dll": "KERNEL32.dll",
+        "functions": [
+          "GetProcAddress",
+          "LoadLibraryA",
+          "lstrcpyW",
+          "InitializeCriticalSection",
+          "DeleteCriticalSection",
+          "EnterCriticalSection",
+          "LeaveCriticalSection",
+          "QueryPerformanceCounter",
+          "CreateThread",
+          "GetLastError",
+          "WaitForSingleObject",
+          "CloseHandle",
+          "Sleep",
+          "CreateEventW",
+          "GetSystemTime",
+          "GetTickCount",
+          "GetCurrentThreadId",
+          "GetCurrentProcessId",
+          "ResetEvent",
+          "SetEvent",
+          "QueryPerformanceFrequency"
+        ]
+      },
+      {
+        "dll": "WS2_32.dll",
+        "functions": [
+          "ord#52",
+          "ord#116",
+          "ord#9",
+          "ord#111",
+          "ord#115",
+          "ord#15",
+          "ord#20",
+          "ord#23",
+          "ord#21",
+          "ord#2",
+          "ord#6",
+          "ord#22",
+          "ord#3",
+          "ord#17"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "raw_size": 14133,
+        "vsize": 16384
+      },
+      {
+        "name": ".rdata",
+        "rva": 20480,
+        "raw_size": 1780,
+        "vsize": 4096
+      },
+      {
+        "name": ".data2",
+        "rva": 24576,
+        "raw_size": 200,
+        "vsize": 4096
+      },
+      {
+        "name": ".data3",
+        "rva": 28672,
+        "raw_size": 636,
+        "vsize": 4096
+      }
+    ]
+  },
+  {
+    "name": "blob_7",
+    "output": "output/blobs/blob_7.dll",
+    "size_of_image": 32768,
+    "entry_point_rva": 5360,
+    "num_sections": 4,
+    "timestamp": 1487845991,
+    "pe_size": 30720,
+    "imports": [
+      {
+        "dll": "KERNEL32.dll",
+        "functions": [
+          "lstrcpyW",
+          "InitializeCriticalSection",
+          "DeleteCriticalSection",
+          "EnterCriticalSection",
+          "LeaveCriticalSection",
+          "QueryPerformanceCounter",
+          "CreateThread",
+          "GetLastError",
+          "WaitForSingleObject",
+          "CloseHandle",
+          "Sleep",
+          "CreateEventW",
+          "GetSystemTime",
+          "GetTickCount",
+          "GetCurrentThreadId",
+          "GetCurrentProcessId",
+          "ResetEvent",
+          "SetEvent",
+          "QueryPerformanceFrequency",
+          "GetProcAddress",
+          "LoadLibraryA",
+          "lstrcpyA",
+          "lstrlenA"
+        ]
+      },
+      {
+        "dll": "WS2_32.dll",
+        "functions": [
+          "ord#116",
+          "ord#115",
+          "ord#20",
+          "ord#111",
+          "ord#23",
+          "ord#21",
+          "ord#2",
+          "ord#6",
+          "ord#9",
+          "ord#22",
+          "ord#3",
+          "ord#15",
+          "ord#17"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "name": ".text",
+        "rva": 4096,
+        "raw_size": 12533,
+        "vsize": 16384
+      },
+      {
+        "name": ".rdata",
+        "rva": 20480,
+        "raw_size": 1700,
+        "vsize": 4096
+      },
+      {
+        "name": ".data2",
+        "rva": 24576,
+        "raw_size": 0,
+        "vsize": 4096
+      },
+      {
+        "name": ".data3",
+        "rva": 28672,
+        "raw_size": 588,
+        "vsize": 4096
+      }
+    ]
+  }
+]

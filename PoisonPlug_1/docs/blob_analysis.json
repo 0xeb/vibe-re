@@ -1,0 +1,74 @@
+[
+  {
+    "name": "blob_0",
+    "total_size": 8214,
+    "magic": "0x00650001",
+    "compressed_size": 8194,
+    "decompressed_size": 11395,
+    "decompression": "success",
+    "type": "ScatterBrain packed PE"
+  },
+  {
+    "name": "blob_1",
+    "total_size": 8873,
+    "magic": "0x00650001",
+    "compressed_size": 8853,
+    "decompressed_size": 12145,
+    "decompression": "success",
+    "type": "ScatterBrain packed PE"
+  },
+  {
+    "name": "blob_2",
+    "total_size": 8113,
+    "magic": "0x00650001",
+    "compressed_size": 8093,
+    "decompressed_size": 11199,
+    "decompression": "success",
+    "type": "ScatterBrain packed PE"
+  },
+  {
+    "name": "blob_3",
+    "total_size": 16466,
+    "magic": "0x00650001",
+    "compressed_size": 16446,
+    "decompressed_size": 23294,
+    "decompression": "success",
+    "type": "ScatterBrain packed PE"
+  },
+  {
+    "name": "blob_4",
+    "total_size": 5223,
+    "magic": "0x00650001",
+    "compressed_size": 5203,
+    "decompressed_size": 6829,
+    "decompression": "success",
+    "type": "ScatterBrain packed PE"
+  },
+  {
+    "name": "blob_5",
+    "total_size": 10002,
+    "magic": "0x00650001",
+    "compressed_size": 9982,
+    "decompressed_size": 13359,
+    "decompression": "success",
+    "type": "ScatterBrain packed PE"
+  },
+  {
+    "name": "blob_6",
+    "total_size": 12027,
+    "magic": "0x00650001",
+    "compressed_size": 12007,
+    "decompressed_size": 16853,
+    "decompression": "success",
+    "type": "ScatterBrain packed PE"
+  },
+  {
+    "name": "blob_7",
+    "total_size": 11464,
+    "magic": "0x00650001",
+    "compressed_size": 11444,
+    "decompressed_size": 14925,
+    "decompression": "success",
+    "type": "ScatterBrain packed PE"
+  }
+]
