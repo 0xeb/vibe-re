@@ -1,0 +1,28 @@
+# Ghidra projects
+*.gpr
+*.rep/
+*.lock
+*.lock~
+
+# Binaries
+*.sys
+*.bin
+*.exe
+*.dll
+*.zip
+
+# Build artifacts
+build/
+*.obj
+*.lib
+*.pdb
+*.ilk
+*.exp
+
+# Dumps
+ntoskrnl_*.bin
+ntoskrnl_*.exe
+
+# Claude / IDE
+.claude/
+.vs/
