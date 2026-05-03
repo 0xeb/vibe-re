@@ -1,0 +1,9 @@
+{
+  "name": "oceandrift-analysis",
+  "version-string": "0.1.0",
+  "description": "Static analysis artifacts of the OceanDrift implant",
+  "dependencies": [
+    "curl",
+    "nlohmann-json"
+  ]
+}
