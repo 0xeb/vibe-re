@@ -595,3 +595,7 @@ sysinternals_handle64/
         ├── procexp.c          Reconstructed driver source (all 16 IOCTLs)
         └── procexp.h          Driver-private header
 ```
+
+## License
+
+Licensed under the [BSD 3-Clause License](../LICENSE).

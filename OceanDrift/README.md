@@ -49,3 +49,8 @@ cmake --build build
 ```
 yara scripts/oceandrift.yar <target>
 ```
+
+## Disclaimer
+
+This analysis is for **defensive security research and education only**.
+See the repository [LICENSE](../LICENSE) and [Disclaimer](../README.md#disclaimer).

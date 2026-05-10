@@ -92,6 +92,7 @@ Sensitive malware-derived databases and decrypted binary artifacts are not distr
 ## Safety
 
 For malware analysis and defensive research only.
+Licensed under the [BSD 3-Clause License](../LICENSE).
 
 ## Prior Work (Context Only)
 
