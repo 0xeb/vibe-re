@@ -23,7 +23,7 @@ Both tools turn reverse engineering into a data problem: instead of clicking thr
 
 Client libraries and demos for 10 vulnerable signed Windows kernel drivers (BYOVD).
 Each project includes typed IOCTL wrappers and a demo program — no WDK required to build.
-Driver binaries can be obtained from [KeServiceDescriptorTable/vulnerable-drivers](https://github.com/KeServiceDescriptorTable/vulnerable-drivers).
+Driver binaries were previously available from KeServiceDescriptorTable/vulnerable-drivers (see [RELATED.md](RELATED.md)).
 
 All BYOVD analysis was performed using [ghidrasql](https://github.com/0xeb/ghidrasql) and [Claude Code](https://docs.anthropic.com/en/docs/claude-code) (Opus 4.6, 1M context).
 
@@ -44,6 +44,10 @@ All BYOVD analysis was performed using [ghidrasql](https://github.com/0xeb/ghidr
 
 - Public repo content is documentation, scripts, and non-sensitive research metadata.
 - Sensitive artifacts (IDA/Ghidra databases, malware binaries, extracted drivers) are not distributed in this public repository.
+
+## Related Work
+
+See [RELATED.md](RELATED.md) for related reverse-engineering and security research projects.
 
 ## License
 
