@@ -18,6 +18,7 @@ Both tools turn reverse engineering into a data problem: instead of clicking thr
 | `PoisonPlug_1/` | ScatterBrain/PoisonPlug variant — architecture, 8 plugins, 3 ciphers, automation pipeline | idasql | [PoisonPlug_1/README.md](PoisonPlug_1/README.md) |
 | `sysinternals_handle64/` | Security audit of the Process Explorer kernel driver (PROCEXP152.sys) — 16 IOCTLs, kernel memory read, PPL bypass, live ntoskrnl dump | ghidrasql | [sysinternals_handle64/README.md](sysinternals_handle64/README.md) |
 | `OceanDrift/` | Graph API / OneDrive C2 implant — config crypto, OAuth tasking, command dispatch, host profiling | idasql | [OceanDrift/README.md](OceanDrift/README.md) |
+| `nanlite_pavotube2_6c/` | Nanlite PavoTube II 6C LED light firmware (STM32F4): BLE and nRF24 remote protocols, EEPROM settings map, memory map, effect engine, Python client library | idasql | [nanlite_pavotube2_6c/README.md](nanlite_pavotube2_6c/README.md) |
 
 ### BYOVD Driver Client Libraries
 

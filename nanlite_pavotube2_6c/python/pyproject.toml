@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pavotube"
+version = "0.1.0"
+description = "Unofficial interop library and CLI for the Nanlite PavoTube II 6C (BLE, nRF24, EEPROM, firmware inspection)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "BSD-3-Clause" }
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Topic :: System :: Hardware",
+]
+
+[project.optional-dependencies]
+ble = ["bleak>=0.22"]
+
+[project.scripts]
+pavotube = "pavotube.cli:main"
+
+[tool.setuptools]
+packages = ["pavotube"]
